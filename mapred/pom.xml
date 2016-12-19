@@ -69,7 +69,7 @@
             <!-- compile only test protocols and schemas and place them in the classpath. -->
             <configuration>
               <sourceDirectory></sourceDirectory>
-              <testSourceDirectory>${parent.project.basedir}/../../../../share/test/schemas/</testSourceDirectory>
+              <testSourceDirectory>${project.basedir}/../share/test/schemas/</testSourceDirectory>
               <testOutputDirectory>${project.build.directory}/generated-test-sources/java</testOutputDirectory>
             </configuration>
           </execution>
@@ -84,7 +84,7 @@
               <includes>
                 <include>**/mapred/tether/*.avpr</include>
               </includes>
-              <sourceDirectory>${parent.project.basedir}/../../../../share/schemas/</sourceDirectory>
+              <sourceDirectory>${project.basedir}/../share/schemas/</sourceDirectory>
               <outputDirectory>${project.build.directory}/generated-sources/java</outputDirectory>
             </configuration>
           </execution>

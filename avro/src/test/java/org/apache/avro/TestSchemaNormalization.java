@@ -90,7 +90,7 @@ public class TestSchemaNormalization {
   }
 
   private static String DATA_FILE =
-    (System.getProperty("share.dir", "../../../share")
+    (System.getProperty("share.dir", "../share")
      + "/test/data/schema-tests.txt");
 
   private static BufferedReader data() throws IOException

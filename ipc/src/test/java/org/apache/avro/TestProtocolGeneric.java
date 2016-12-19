@@ -48,7 +48,7 @@ public class TestProtocolGeneric {
   private static final Logger LOG
     = LoggerFactory.getLogger(TestProtocolGeneric.class);
 
-  protected static final File FILE = new File("../../../share/test/schemas/simple.avpr");
+  protected static final File FILE = new File("../share/test/schemas/simple.avpr");
   protected static final Protocol PROTOCOL;
   static {
     try {

@@ -73,9 +73,9 @@
                 <exclude>org/apache/avro/data/Json.avsc</exclude>
               </excludes>
               <stringType>String</stringType>
-              <sourceDirectory>${parent.project.basedir}/../../../../share/schemas/</sourceDirectory>
+              <sourceDirectory>${project.basedir}/../share/schemas/</sourceDirectory>
               <outputDirectory>${project.build.directory}/generated-sources/java</outputDirectory>
-              <testSourceDirectory>${parent.project.basedir}/../../../../share/test/schemas/</testSourceDirectory>
+              <testSourceDirectory>${project.basedir}/../share/test/schemas/</testSourceDirectory>
               <testOutputDirectory>${project.build.directory}/generated-test-sources/java</testOutputDirectory>
             </configuration>
           </execution>

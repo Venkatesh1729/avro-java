@@ -34,7 +34,7 @@ public class TestRpcReceiveAndSendTools {
   @Test
   public void testServeAndSend() throws Exception {
     String protocolFile =
-      System.getProperty("share.dir", "../../../share") + "/test/schemas/simple.avpr";
+      System.getProperty("share.dir", "../share") + "/test/schemas/simple.avpr";
     ByteArrayOutputStream baos1 = new ByteArrayOutputStream();
     PrintStream p1 = new PrintStream(baos1);
     RpcReceiveTool receive = new RpcReceiveTool();

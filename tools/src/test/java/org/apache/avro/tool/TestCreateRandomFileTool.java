@@ -42,7 +42,7 @@ public class TestCreateRandomFileTool {
     = new File(System.getProperty("test.dir", "/tmp"));
   private static final File OUT_FILE = new File(DIR, "random.avro");
   private static final File SCHEMA_FILE =
-    new File("../../../share/test/schemas/weather.avsc");
+    new File("../share/test/schemas/weather.avsc");
 
   private byte[] run(List<String> args) throws Exception {
     ByteArrayOutputStream baos = new ByteArrayOutputStream();

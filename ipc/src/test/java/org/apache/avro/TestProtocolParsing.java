@@ -30,7 +30,7 @@ import org.apache.avro.Protocol.Message;
 
 public class TestProtocolParsing {
   public static Protocol getSimpleProtocol() throws IOException {
-    File file = new File("../../../share/test/schemas/simple.avpr");
+    File file = new File("../share/test/schemas/simple.avpr");
     return Protocol.parse(file);
   }
 

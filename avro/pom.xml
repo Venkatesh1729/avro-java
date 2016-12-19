@@ -48,7 +48,7 @@
   <build>
     <resources>
       <resource>
-        <directory>../../../share/schemas</directory>
+        <directory>../share/schemas</directory>
         <includes>
           <include>org/apache/avro/data/Json.avsc</include>
         </includes>
@@ -132,8 +132,8 @@
                   <mainClass>org.apache.avro.RandomData</mainClass>
                   <classpathScope>test</classpathScope>
                   <arguments>
-                    <argument>../../../share/test/schemas/interop.avsc</argument>
-                    <argument>../../../build/interop/data/java.avro</argument>
+                    <argument>../share/test/schemas/interop.avsc</argument>
+                    <argument>../interop/data/java.avro</argument>
                     <argument>100</argument>
                   </arguments>
                 </configuration>
@@ -147,8 +147,8 @@
                   <mainClass>org.apache.avro.RandomData</mainClass>
                   <classpathScope>test</classpathScope>
                   <arguments>
-                    <argument>../../../share/test/schemas/interop.avsc</argument>
-                    <argument>../../../build/interop/data/java_deflate.avro</argument>
+                    <argument>../share/test/schemas/interop.avsc</argument>
+                    <argument>../interop/data/java_deflate.avro</argument>
                     <argument>100</argument>
                     <argument>deflate</argument>
                   </arguments>

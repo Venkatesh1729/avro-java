@@ -277,7 +277,7 @@ public class TestDataFile {
 
   @Test public void testSyncInHeader() throws IOException {
     DataFileReader<Object> reader = new DataFileReader<Object>
-      (new File("../../../share/test/data/syncInMeta.avro"),
+      (new File("../share/test/data/syncInMeta.avro"),
        new GenericDatumReader<Object>());
     reader.sync(0);
     for (Object datum : reader)
@@ -285,7 +285,7 @@ public class TestDataFile {
   }
 
   @Test public void test12() throws IOException {
-    readFile(new File("../../../share/test/data/test.avro12"),
+    readFile(new File("../share/test/data/test.avro12"),
              new GenericDatumReader<Object>());
   }
 

@@ -56,7 +56,7 @@ public class TestRpcProtocolTool {
   @Before
   public void setUp() throws Exception {
     String protocolFile =
-      System.getProperty("share.dir", "../../../share") + "/test/schemas/simple.avpr";
+      System.getProperty("share.dir", "../share") + "/test/schemas/simple.avpr";
 
     simpleProtocol = Protocol.parse(new File(protocolFile));
 
