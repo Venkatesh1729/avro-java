@@ -27,12 +27,7 @@ then
   usage
 fi
 
-if [ -f VERSION.txt ]
-then
-  VERSION=`cat VERSION.txt`
-else
-  VERSION=`cat ../../share/VERSION.txt`
-fi
+VERSION=`cat VERSION.txt`
 
 for target in "$@"
 do
